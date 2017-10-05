@@ -4,7 +4,8 @@
     <Files>
       <File FileName="Kenzardi/App_Start/WebApiConfig.cs" Line="21" Column="2" />
       <File FileName="Kenzardi/App_Start/Filters/DBUnitOfWorkAttribute.cs" Line="5" Column="60" />
-      <File FileName="Kenzardi/Startup.cs" Line="18" Column="4" />
+      <File FileName="Kenzardi/Startup.cs" Line="16" Column="4" />
+      <File FileName="Kenzardi/API/Model Binders/ProductBinder.cs" Line="11" Column="4" />
       <File FileName="owinArchitecture Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
