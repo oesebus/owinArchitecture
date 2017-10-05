@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{F3BD9ACB-CD70-4461-BD6E-7A67B1AE4624}|Default" GitUserInfo="UsingGIT" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.Kenzardi.ConsoleHost PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kenzardi/API/ProductController.cs">
+    <Files>
+      <File FileName="Kenzardi/Startup.cs" Line="28" Column="57" />
+      <File FileName="Kenzardi/App_Start/DependencyResolver/StructureMap/StrcutureMapDependencyScope.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/App_Start/DependencyResolver/StructureMap/StructureMapDependecyResolver.cs" Line="18" Column="53" />
+      <File FileName="Kenzardi/Registries/WebRegistry.cs" Line="10" Column="4" />
+      <File FileName="Kenzardi/App_Start/Filters/DBUnitOfWorkAttribute.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/AuthenticationMiddleware.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/AuthenticationMiddlewareOptions.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/AuthenticationsMiddlewareExtensions.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/LogMiddleware.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/LogMiddlewareExtensions.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/LogMiddlewareOptions.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/StructureMapMiddleware.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/StructureMapMiddlewareExtensions.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/Pipeline/StructureMapMiddlewareOptions.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi/API/ProductController.cs" Line="14" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="codusSolution" Email="idrissisolutions@gmail.com" Copyright="CODUS SOLUTION SPRL" Company="" Trademark="" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Kenzardi.API PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

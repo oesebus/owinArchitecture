@@ -1,0 +1,17 @@
+﻿using System;
+using Owin;
+
+namespace Pipeline
+{
+	public static class AuthenticationMiddlewareExtensions
+	{
+		public static void UseLogMiddleware(this IAppBuilder app, AuthenticationMiddlewareOptions options)
+		{
+			if (options == null)
+			{
+				options = new AuthenticationMiddlewareOptions();
+				app.Use<AuthenticationMiddleware>(options);
+			}
+		}
+	}
+}

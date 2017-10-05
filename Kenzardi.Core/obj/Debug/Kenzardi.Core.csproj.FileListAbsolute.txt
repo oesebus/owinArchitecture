@@ -1,0 +1,5 @@
+/Users/codusSolution/Projects/Kenzardi/Kenzardi.Core/bin/Debug/Kenzardi.Core.dll
+/Users/codusSolution/Projects/Kenzardi/Kenzardi.Core/bin/Debug/Kenzardi.Core.pdb
+/Users/codusSolution/Projects/Kenzardi/Kenzardi.Core/obj/Debug/Kenzardi.Core.csproj.CoreCompileInputs.cache
+/Users/codusSolution/Projects/Kenzardi/Kenzardi.Core/obj/Debug/Kenzardi.Core.dll
+/Users/codusSolution/Projects/Kenzardi/Kenzardi.Core/obj/Debug/Kenzardi.Core.pdb
