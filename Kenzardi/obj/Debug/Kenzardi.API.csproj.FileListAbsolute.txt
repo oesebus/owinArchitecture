@@ -31,3 +31,4 @@
 /Users/codusSolution/Projects/Kenzardi/Kenzardi/obj/Debug/Kenzardi.API.csprojResolveAssemblyReference.cache
 /Users/codusSolution/Projects/Kenzardi/Kenzardi/bin/WebApiContrib.IoC.StructureMap.dll
 /Users/codusSolution/Projects/Kenzardi/Kenzardi/bin/StructureMap.Web.xml
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi/obj/Debug/Kenzardi.API.csproj.CoreCompileInputs.cache

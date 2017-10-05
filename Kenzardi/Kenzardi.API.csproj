@@ -118,6 +118,7 @@
     <Compile Include="App_Start\DependencyResolver\StructureMap\StructureMapDependecyResolver.cs" />
     <Compile Include="App_Start\DependencyResolver\StructureMap\StrcutureMapDependencyScope.cs" />
     <Compile Include="Registries\WebRegistry.cs" />
+    <Compile Include="App_Start\Filters\CustomValidateModelAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pipeline\" />

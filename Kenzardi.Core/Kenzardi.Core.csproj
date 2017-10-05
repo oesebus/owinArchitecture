@@ -28,19 +28,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="StructureMap">
+      <HintPath>..\packages\StructureMap.4.5.2\lib\net45\StructureMap.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Product\Interface\IProduct.cs" />
     <Compile Include="Product\Model\Product.cs" />
     <Compile Include="Product\Service\ProductService.cs" />
+    <Compile Include="CoreRegistry.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Product\" />
     <Folder Include="Product\Model\" />
     <Folder Include="Product\Service\" />
     <Folder Include="Product\Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

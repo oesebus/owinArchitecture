@@ -7,7 +7,6 @@ using Owin;
 using Pipeline;
 using StructureMap;
 
-
 [assembly: OwinStartup(typeof(Kenzardi.Startup))]
 namespace Kenzardi
 {
@@ -18,6 +17,8 @@ namespace Kenzardi
 			var config = new HttpConfiguration();
 
 			config.MapHttpAttributeRoutes();
+
+			config.Filters.Add(new CustomValidateModelAttribute());
 			config.Filters.Add(new DbUnitOfWorkAttribute());
 
 			ObjectFactory.Initialize(cfg =>

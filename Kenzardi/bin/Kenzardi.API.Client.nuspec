@@ -51,9 +51,9 @@
     </contentFiles>
   </metadata>
   <files>
-    <file src="/Users/codusSolution/Projects/Kenzardi/Kenzardi/bin/Kenzardi.dll" target="lib/net45/Kenzardi.dll" />
-    <file src="/Users/codusSolution/Projects/Kenzardi/Kenzardi/bin/Kenzardi.pdb" target="lib/net45/Kenzardi.pdb" />
-    <file src="/Users/codusSolution/Projects/Kenzardi/Kenzardi/Web.config" target="contentFiles/any/net45/Web.config" />
-    <file src="/Users/codusSolution/Projects/Kenzardi/Kenzardi/packages.config" target="contentFiles/any/net45/packages.config" />
+    <file src="/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi/bin/Kenzardi.dll" target="lib/net45/Kenzardi.dll" />
+    <file src="/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi/bin/Kenzardi.pdb" target="lib/net45/Kenzardi.pdb" />
+    <file src="/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi/Web.config" target="contentFiles/any/net45/Web.config" />
+    <file src="/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi/packages.config" target="contentFiles/any/net45/packages.config" />
   </files>
 </package>

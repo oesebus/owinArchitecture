@@ -1,11 +1,11 @@
 ﻿using System.Web.Http;
-using Filters;
+using Kenzardi.DependencyResolver.StructureMap;
+using Kenzardi.Filters;
+using Kenzardi.Registries;
 using Microsoft.Owin;
 using Owin;
 using Pipeline;
-using Registries;
 using StructureMap;
-
 
 [assembly: OwinStartup(typeof(Kenzardi.Startup))]
 namespace Kenzardi
@@ -17,7 +17,9 @@ namespace Kenzardi
 			var config = new HttpConfiguration();
 
 			config.MapHttpAttributeRoutes();
-			config.Filters.Add(new DBUnitOfWorkAttribute());
+
+			config.Filters.Add(new CustomValidateModelAttribute());
+			config.Filters.Add(new DbUnitOfWorkAttribute());
 
 			ObjectFactory.Initialize(cfg =>
 			{
