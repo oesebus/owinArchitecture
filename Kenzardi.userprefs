@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{F3BD9ACB-CD70-4461-BD6E-7A67B1AE4624}|Default" GitUserInfo="UsingGIT" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.Kenzardi.ConsoleHost PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="owinArchitecture Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kenzardi/App_Start/Filters/CustomValidateModelAttribute.cs">
     <Files>
       <File FileName="Kenzardi/App_Start/WebApiConfig.cs" Line="21" Column="2" />
       <File FileName="Kenzardi/App_Start/Filters/DBUnitOfWorkAttribute.cs" Line="5" Column="60" />
       <File FileName="Kenzardi/Startup.cs" Line="16" Column="4" />
-      <File FileName="Kenzardi/API/Model Binders/ProductBinder.cs" Line="11" Column="4" />
-      <File FileName="owinArchitecture Status" />
+      <File FileName="Kenzardi/API/Model Binders/ProductBinder.cs" Line="19" Column="2" />
+      <File FileName="Kenzardi/App_Start/Filters/CustomValidateModelAttribute.cs" Line="13" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
