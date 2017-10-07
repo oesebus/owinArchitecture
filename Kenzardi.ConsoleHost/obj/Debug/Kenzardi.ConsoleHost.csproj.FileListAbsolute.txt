@@ -55,3 +55,4 @@
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.ConsoleHost/obj/Debug/Kenzardi.ConsoleHost.csproj.CoreCompileInputs.cache
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.ConsoleHost/obj/Debug/Kenzardi.ConsoleHost.exe
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.ConsoleHost/obj/Debug/Kenzardi.ConsoleHost.pdb
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.ConsoleHost/obj/Debug/Kenzardi.ConsoleHost.csprojResolveAssemblyReference.cache
