@@ -135,6 +135,7 @@
     <Compile Include="Registries\WebRegistry.cs" />
     <Compile Include="App_Start\Filters\CustomValidateModelAttribute.cs" />
     <Compile Include="API\Model Binders\ProductBinder.cs" />
+    <Compile Include="API\Attributes\CustomAuthorizeAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pipeline\" />
@@ -145,6 +146,7 @@
     <Folder Include="App_Start\DependencyResolver\Autofac\" />
     <Folder Include="Registries\" />
     <Folder Include="API\Model Binders\" />
+    <Folder Include="API\Attributes\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

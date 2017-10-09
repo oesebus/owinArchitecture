@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.Http;
+using Attributes;
 
 namespace API
 {
@@ -18,6 +19,8 @@ namespace API
 			return new string[] { "value1", "value2" };
 		}
 
+
+		[CustomAuthorize]
 		// GET api/product/5 
 		public string Get(int id)
 		{

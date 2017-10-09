@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kenzardi.Core", "Kenzardi.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kenzardi.ConsoleHost", "Kenzardi.ConsoleHost\Kenzardi.ConsoleHost.csproj", "{F3BD9ACB-CD70-4461-BD6E-7A67B1AE4624}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kenzardi.Firebase.ConsoleListener", "Kenzardi.Firebase.Console\Kenzardi.Firebase.ConsoleListener.csproj", "{346BB413-E4D9-4869-BDE4-0FED0D4EA384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{F3BD9ACB-CD70-4461-BD6E-7A67B1AE4624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3BD9ACB-CD70-4461-BD6E-7A67B1AE4624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3BD9ACB-CD70-4461-BD6E-7A67B1AE4624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346BB413-E4D9-4869-BDE4-0FED0D4EA384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346BB413-E4D9-4869-BDE4-0FED0D4EA384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346BB413-E4D9-4869-BDE4-0FED0D4EA384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346BB413-E4D9-4869-BDE4-0FED0D4EA384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,20 +48,5 @@ Global
 		$1.DirectoryNamespaceAssociation = Flat
 		$1.ResourceNamePolicy = MSBuild
 		$0.TextStylePolicy = $7
-		$2.inheritsSet = null
-		$2.scope = application/config+xml
-		$0.XmlFormattingPolicy = $5
-		$3.inheritsSet = null
-		$3.scope = application/config+xml
-		$4.inheritsSet = null
-		$4.scope = application/xml
-		$5.scope = application/xml
-		$6.scope = text/plain
-		$7.inheritsSet = null
-		$7.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $8
-		$8.scope = text/x-csharp
-		$0.StandardHeader = $9
-		$0.VersionControlPolicy = $10
 	EndGlobalSection
 EndGlobal
