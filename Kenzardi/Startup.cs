@@ -33,6 +33,12 @@ namespace Kenzardi
 			app.UseStructureMapMiddleware(new StructureMapMiddlewareOptions());
 			app.UseAuthenticationMiddleware(new AuthenticationMiddlewareOptions());
 			app.UseLogMiddleware(new LogMiddlewareOptions());
+
+			//app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+			//{
+			//	ClientId = "ABC.apps.googleusercontent.com",
+			//	ClientSecret = "XYZ"
+			//});
 			app.UseWebApi(config);
 		}
 

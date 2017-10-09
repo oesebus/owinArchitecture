@@ -7,6 +7,8 @@ namespace Pipeline
 	{
 		public Action<IOwinContext> OnIncomingRequest;
 		public Action<IOwinContext> OnOutGoingRequest;
+		public Boolean UseGoogleAuthenciation;
+		public Boolean UseFacebookAuthentication;
 
 		public AuthenticationMiddlewareOptions()
 		{
