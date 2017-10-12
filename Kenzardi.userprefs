@@ -1,36 +1,15 @@
 ﻿<Properties StartupConfiguration="{346BB413-E4D9-4869-BDE4-0FED0D4EA384}|Default" GitUserInfo="UsingGIT" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.Kenzardi.ConsoleHost PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="owinArchitecture Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kenzardi.Firebase.Console/Program.cs">
     <Files>
-      <File FileName="Kenzardi/App_Start/WebApiConfig.cs" Line="21" Column="2" />
-      <File FileName="Kenzardi/App_Start/Filters/DBUnitOfWorkAttribute.cs" Line="21" Column="1" />
-      <File FileName="Kenzardi/Startup.cs" Line="26" Column="40" />
-      <File FileName="Kenzardi/API/Model Binders/ProductBinder.cs" Line="19" Column="2" />
-      <File FileName="Kenzardi/App_Start/Filters/CustomValidateModelAttribute.cs" Line="17" Column="5" />
-      <File FileName="Kenzardi.Firebase.Console/Program.cs" Line="27" Column="41" />
-      <File FileName="Kenzardi/API/Attributes/CustomAuthorizeAttribute.cs" Line="13" Column="5" />
-      <File FileName="Kenzardi/API/ProductController.cs" Line="24" Column="24" />
-      <File FileName="Kenzardi/Pipeline/AuthenticationMiddleware.cs" Line="18" Column="43" />
-      <File FileName="Kenzardi.Redis.ConsoleHost/Program.cs" Line="9" Column="38" />
-      <File FileName="../../../.nuget/packages/jil/2.10.0/jil.2.10.0.nupkg" />
-      <File FileName="Kenzardi/Pipeline/Helpers/OwinHelper.cs" Line="1" Column="1" />
-      <File FileName="Kenzardi/Pipeline/AuthenticationMiddlewareOptions.cs" Line="17" Column="2" />
-      <File FileName="owinArchitecture Status" />
+      <File FileName="Kenzardi.Core/Order/Service/OrderService.cs" Line="10" Column="3" />
+      <File FileName="Kenzardi.Core/CoreRegistry.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi.Core/Order/Model/OrderModel.cs" Line="7" Column="4" />
+      <File FileName="Kenzardi.Core/Product/Model/ProductModel.cs" Line="6" Column="22" />
+      <File FileName="Kenzardi.Core/Product/Service/ProductService.cs" Line="7" Column="3" />
+      <File FileName="Kenzardi.Data.Redis/MyClass.cs" Line="1" Column="1" />
+      <File FileName="Kenzardi.Firebase.Console/Program.cs" Line="16" Column="3" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Kenzardi" expanded="True">
-            <Node name="Kenzardi.API" expanded="True">
-              <Node name="Pipeline" expanded="True">
-                <Node name="Helpers" expanded="True" />
-              </Node>
-              <Node name="Startup.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

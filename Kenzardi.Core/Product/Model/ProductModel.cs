@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Product.Model
 {
-	public class Product
+	public class ProductModel
 	{
-		public Product()
+		public ProductModel()
 		{
 		}
 	}

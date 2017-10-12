@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2EFE7933-125B-4EC1-8CDA-82F5F878EBBA}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Kenzardi.Redis.ConsoleHost</RootNamespace>
-    <AssemblyName>Kenzardi.Redis.ConsoleHost</AssemblyName>
+    <ProjectGuid>{A9F88CEF-D4B5-4FF1-A737-9BF312398DC6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Kenzardi.Data.Redis</RootNamespace>
+    <AssemblyName>Kenzardi.Data.Redis</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -17,20 +17,20 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <ExternalConsole>true</ExternalConsole>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <ExternalConsole>true</ExternalConsole>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

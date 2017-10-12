@@ -1,4 +1,7 @@
 ﻿using System;
+using NLog;
+using Product.Interface;
+using Product.Service;
 using StructureMap;
 namespace Kenzardi.Core
 {
@@ -6,6 +9,7 @@ namespace Kenzardi.Core
 	{
 		public CoreRegistry()
 		{
+			For<IProduct>().Use<ProductService>();
 
 		}
 	}
