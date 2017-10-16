@@ -12,10 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kenzardi.ConsoleHost", "Ken
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kenzardi.Firebase.ConsoleListener", "Kenzardi.Firebase.Console\Kenzardi.Firebase.ConsoleListener.csproj", "{346BB413-E4D9-4869-BDE4-0FED0D4EA384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kenzardi.Data.Redis", "Kenzardi.Data.Redis\Kenzardi.Data.Redis.csproj", "{A9F88CEF-D4B5-4FF1-A737-9BF312398DC6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kenzardi.Data.Firebase", "Kenzardi.Data.Firebase\Kenzardi.Data.Firebase.csproj", "{50F040A1-D1D2-44C4-9D2B-89DFCC90C40C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,14 +38,6 @@ Global
 		{346BB413-E4D9-4869-BDE4-0FED0D4EA384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{346BB413-E4D9-4869-BDE4-0FED0D4EA384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{346BB413-E4D9-4869-BDE4-0FED0D4EA384}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9F88CEF-D4B5-4FF1-A737-9BF312398DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9F88CEF-D4B5-4FF1-A737-9BF312398DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9F88CEF-D4B5-4FF1-A737-9BF312398DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9F88CEF-D4B5-4FF1-A737-9BF312398DC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{50F040A1-D1D2-44C4-9D2B-89DFCC90C40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50F040A1-D1D2-44C4-9D2B-89DFCC90C40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50F040A1-D1D2-44C4-9D2B-89DFCC90C40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50F040A1-D1D2-44C4-9D2B-89DFCC90C40C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

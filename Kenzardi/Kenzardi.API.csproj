@@ -157,6 +157,7 @@
     <Compile Include="API\Model Binders\ProductBinder.cs" />
     <Compile Include="API\Attributes\CustomAuthorizeAttribute.cs" />
     <Compile Include="Pipeline\Helpers\OwinHelper.cs" />
+    <Compile Include="Registries\RedisRegistry.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pipeline\" />

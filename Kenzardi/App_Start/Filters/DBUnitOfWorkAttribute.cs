@@ -1,4 +1,6 @@
-﻿using System.Web.Http.Filters;
+﻿using System.Net.Http;
+using System.Web.Http.Filters;
+using StackExchange.Redis;
 
 namespace Kenzardi.Filters
 {
@@ -6,13 +8,13 @@ namespace Kenzardi.Filters
 	{
 		public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
 		{
-			//var session = actionExecutedContext.Request.GetDependencyScope()
-			//	.GetService(typeof()) as IDocumentSession;
+			var _database = actionExecutedContext.Request.GetDependencyScope()
+											   .GetService(typeof(IDatabaseAsync)) as IDatabaseAsync;
 
-			//if (session != null && actionExecutedContext.Exception == null)
-			//{
-			//	session.SaveChanges();
-			//}
+			if (_database != null && actionExecutedContext.Exception == null)
+			{
+
+			}
 
 			base.OnActionExecuted(actionExecutedContext);
 		}

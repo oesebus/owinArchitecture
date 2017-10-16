@@ -5,6 +5,8 @@ using Kenzardi.Registries;
 using Microsoft.Owin;
 using Owin;
 using Pipeline;
+using Registries;
+using StackExchange.Redis;
 using StructureMap;
 
 [assembly: OwinStartup(typeof(Kenzardi.Startup))]
@@ -24,6 +26,9 @@ namespace Kenzardi
 			ObjectFactory.Initialize(cfg =>
 			{
 				cfg.AddRegistry(new WebRegistry());
+				cfg.AddRegistry(new RedisRegistry(""));
+
+
 			});
 
 

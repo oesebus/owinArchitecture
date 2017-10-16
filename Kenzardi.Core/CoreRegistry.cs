@@ -11,6 +11,7 @@ namespace Kenzardi.Core
 		{
 			For<IProduct>().Use<ProductService>();
 
+
 		}
 	}
 }

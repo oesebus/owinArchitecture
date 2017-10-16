@@ -12,3 +12,5 @@
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/obj/Debug/Kenzardi.Core.pdb
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/NLog.dll
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/NLog.xml
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StackExchange.Redis.dll
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StackExchange.Redis.xml

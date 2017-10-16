@@ -1,5 +1,0 @@
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Data.Firebase/bin/Debug/Kenzardi.Data.Firebase.dll
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Data.Firebase/bin/Debug/Kenzardi.Data.Firebase.pdb
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Data.Firebase/obj/Debug/Kenzardi.Data.Firebase.csproj.CoreCompileInputs.cache
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Data.Firebase/obj/Debug/Kenzardi.Data.Firebase.dll
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Data.Firebase/obj/Debug/Kenzardi.Data.Firebase.pdb
