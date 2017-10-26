@@ -1,12 +1,11 @@
 ﻿using System.Web.Http;
+using Kenzardi.Core;
 using Kenzardi.DependencyResolver.StructureMap;
 using Kenzardi.Filters;
 using Kenzardi.Registries;
 using Microsoft.Owin;
 using Owin;
 using Pipeline;
-using Registries;
-using StackExchange.Redis;
 using StructureMap;
 
 [assembly: OwinStartup(typeof(Kenzardi.Startup))]
@@ -21,18 +20,16 @@ namespace Kenzardi
 			config.MapHttpAttributeRoutes();
 
 			config.Filters.Add(new CustomValidateModelAttribute());
-			config.Filters.Add(new DbUnitOfWorkAttribute());
+			//config.Filters.Add(new DbUnitOfWorkAttribute());
 
-			ObjectFactory.Initialize(cfg =>
+
+			IContainer container = new Container(ct =>
 			{
-				cfg.AddRegistry(new WebRegistry());
-				cfg.AddRegistry(new RedisRegistry(""));
-
-
+				ct.AddRegistry(new WebRegistry());
+				ct.AddRegistry(new CoreRegistry());
 			});
 
-
-			config.DependencyResolver = new StructureMapDependencyResolver(ObjectFactory.Container);
+			config.DependencyResolver = new StructureMapDependencyResolver(container);
 
 
 			app.UseStructureMapMiddleware(new StructureMapMiddlewareOptions());

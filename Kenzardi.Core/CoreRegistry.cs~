@@ -9,8 +9,7 @@ namespace Kenzardi.Core
 	{
 		public CoreRegistry()
 		{
-			For<IProduct>().Use<ProductService>();
-
+			For<IProductService>().Use<ProductService>();
 
 		}
 	}

@@ -9,8 +9,13 @@ namespace API
 	public class ProductController
 	{
 
-		public ProductController()
+		protected IProduct _productService;
+
+		public ProductController(IProduct productService)
 		{
+
+			_productService = productService ?? throw new ArgumentNullException(nameof(productService));
+
 		}
 
 		// GET api/values 
@@ -28,8 +33,9 @@ namespace API
 		}
 
 		// POST api/values 
-		public void Post([FromBody]string value)
+		public void Post(ProductModel model)
 		{
+
 		}
 
 		// PUT api/values/5 

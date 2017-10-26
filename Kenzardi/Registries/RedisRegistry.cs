@@ -1,6 +1,6 @@
 ﻿using System;
 using StackExchange.Redis;
-using StructureMap.Configuration.DSL;
+using StructureMap;
 
 namespace Registries
 {

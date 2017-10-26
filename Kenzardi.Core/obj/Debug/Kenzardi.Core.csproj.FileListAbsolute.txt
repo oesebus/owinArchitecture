@@ -5,12 +5,12 @@
 /Users/codusSolution/Projects/Kenzardi/Kenzardi.Core/obj/Debug/Kenzardi.Core.pdb
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/Kenzardi.Core.dll
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/Kenzardi.Core.pdb
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/NLog.dll
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StackExchange.Redis.dll
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StructureMap.dll
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StructureMap.xml
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/NLog.xml
+/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StackExchange.Redis.xml
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/obj/Debug/Kenzardi.Core.csproj.CoreCompileInputs.cache
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/obj/Debug/Kenzardi.Core.dll
 /Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/obj/Debug/Kenzardi.Core.pdb
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/NLog.dll
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/NLog.xml
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StackExchange.Redis.dll
-/Users/codusSolution/Documents/GitHub/owinArchitecture/Kenzardi.Core/bin/Debug/StackExchange.Redis.xml

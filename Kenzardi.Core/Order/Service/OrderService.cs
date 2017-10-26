@@ -15,7 +15,10 @@ namespace Order.Service
 
 		public Task<ProductModel> GetProducts()
 		{
-			return Task.FromResult(new ProductModel());
+			return Task.FromResult(new ProductModel()
+			{
+
+			});
 		}
 
 	}

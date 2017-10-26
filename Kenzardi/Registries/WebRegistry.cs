@@ -1,4 +1,5 @@
-﻿using StructureMap.Configuration.DSL;
+﻿using Product.Interface;
+using StructureMap;
 
 namespace Kenzardi.Registries
 {
@@ -6,7 +7,7 @@ namespace Kenzardi.Registries
 	{
 		public WebRegistry()
 		{
-
+			For<IProductService>().Use<Product.Service.ProductService>();
 		}
 	}
 }
