@@ -65,6 +65,7 @@
     <Compile Include="Order\Interface\IOrder.cs" />
     <Compile Include="Order\Model\OrderModel.cs" />
     <Compile Include="Order\Service\OrderService.cs" />
+    <Compile Include="Customers\Model\AbstractCustomer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Product\" />
@@ -75,6 +76,8 @@
     <Folder Include="Order\Interface\" />
     <Folder Include="Order\Model\" />
     <Folder Include="Order\Service\" />
+    <Folder Include="Customers\" />
+    <Folder Include="Customers\Model\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
